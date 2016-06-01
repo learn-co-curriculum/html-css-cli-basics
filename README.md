@@ -98,6 +98,6 @@ The `mv` command allows us to move files, rename them, or both simultaneously. L
 
 - [ss64 - Mac OSX CLI Commands](http://ss64.com/osx/)
 - [Wikipedia - Unix](https://en.wikipedia.org/wiki/Unix)
-- [Wikipedia - BASH (Unix Shell)](https://en.wikipedia.org/wiki/Bash_(Unix_shell))# Objectives
+- [Wikipedia - BASH (Unix Shell)](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/html-css-cli-basics'>HTML CSS CLI Basics</a> on Learn.co and start learning to code for free.</p>
