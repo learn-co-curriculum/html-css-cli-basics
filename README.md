@@ -7,7 +7,6 @@ Now that you've covered how the web works and have started thinking about planni
 Let's now become proficient with the CLI (Command Line Interface) as it's essential to speeding up your workflow and allowing you direct access to your computer's file system. The CLI will also give you super powers like accessing hidden files and folders, connecting to remote servers, and managing versions of your code using `git`. We will be exploring the most high-frequency BASH commands. For more information on the creation and history of Unix and BASH (Born Again Shell) see the [resources](#resources) at the bottom of this lesson.
 
 ## Objectives
-By the end of this lesson, you'll be able to
 
 1. Print the path to your current working directory
 2. List files and folders in a directory
@@ -23,9 +22,9 @@ By the end of this lesson, you'll be able to
 
 Watch the video below if you are unfamiliar with the command line. It will walk you through basic commands that we will use daily in this course. It will also be helpful later when you start setting up git.
 
-*Note: When practicing the commands, use the terminal in your Learn IDE instead of the Terminal on your computer. The instructions in the video will prompt you to use the Terminal on your computer, but USE the Learn IDE instead. When you open the IDE, the Terminal area is at the bottom half of the IDE interface. Almost all of the commands that we cover will work in your IDE.*
+**Note:** When practicing the commands, use the terminal in your Learn IDE instead of the Terminal on your computer. The instructions in the video will prompt you to use the Terminal on your computer, but USE the Learn IDE instead. When you open the IDE, the Terminal area is at the bottom half of the IDE interface. Almost all of the commands that we cover will work in your IDE.
 
-*Commands That Will Not Work in the IDE: Around the 11:30 in the video, you will be prompted to use the command `open index.html` in your Terminal. This will NOT work with the IDE. Instead use the command `atom index.html`*
+**Commands That Will Not Work in the IDE:** Around the 11:30 mark in the video, you will be prompted to use the command `open index.html` in your Terminal. This will NOT work with the IDE. Instead use the command `atom index.html`
 
 <iframe width="640" height="480" src="//www.youtube-nocookie.com/embed/s5S_2BdrMJE?rel=0" frameborder="0" allowfullscreen></iframe>
 
@@ -37,6 +36,8 @@ Once your IDE loads you will be staring at a prompt. This is where we can type i
 ### List Contents of Current Directory
 
 If we would like to see what files and folders exist within our current location we can use the `ls` list command. This will display any files or folders at our current location. Adding flags (options) such as `ls -a` (`-a` standing for "all") will list including all hidden files as well. We can combine flags such as `ls -la` this will list all files ( including hidden files) in a more detailed format.
+
+Don't worry if in your case you don't see any files and folders within your current location. We'll be creating and updating folders and files as we move along in this lesson. 
 
 ### Moving Through the File System
 
