@@ -21,7 +21,7 @@ By the end of this lesson, you'll be able to
 
 Watch the video below if you are unfamiliar with the command line. It will walk you through basic commands that we will use daily in this course. It will also be helpful later when you start setting up git.
 
-*Note: When practicing the commands, use the terminal in your Learn IDE instead of Terminal.app. All the commands that we cover will work in your IDE.*
+*Note: When practicing the commands, use the terminal in your Learn IDE instead of the Terminal on your computer. The instructions in the video will prompt you to use the Terminal on your computer, but USE the Learn IDE instead. When you open the IDE, the Terminal area is at the bottom half of the IDE interface. All the commands that we cover will work in your IDE.*
 
 <iframe width="640" height="480" src="//www.youtube-nocookie.com/embed/s5S_2BdrMJE?rel=0" frameborder="0" allowfullscreen></iframe>
 
