@@ -7,21 +7,23 @@ Becoming proficient with the CLI (Command Line Interface) is essential to speed 
 ## Objectives
 By the end of this lesson, you'll be able to
 
-1. Print the path to your current working directory.
-2. List files and folders in a directory.
-3. Change directories.
-4. Make new directories.
-5. Create new files.
-6. Remove files and folders.
-7. Open files.
-8. Copy files.
-9. Rename and move files.
+1. Print the path to your current working directory
+2. List files and folders in a directory
+3. Change directories
+4. Make new directories
+5. Create new files
+6. Remove files and folders
+7. Open files
+8. Copy files
+9. Rename and move files
 
 ## Command Line Interface Basics
 
 Watch the video below if you are unfamiliar with the command line. It will walk you through basic commands that we will use daily in this course. It will also be helpful later when you start setting up git.
 
-*Note: When practicing the commands, use the terminal in your Learn IDE instead of the Terminal on your computer. The instructions in the video will prompt you to use the Terminal on your computer, but USE the Learn IDE instead. When you open the IDE, the Terminal area is at the bottom half of the IDE interface. All the commands that we cover will work in your IDE.*
+*Note: When practicing the commands, use the terminal in your Learn IDE instead of the Terminal on your computer. The instructions in the video will prompt you to use the Terminal on your computer, but USE the Learn IDE instead. When you open the IDE, the Terminal area is at the bottom half of the IDE interface. Almost all of the commands that we cover will work in your IDE.*
+
+*Commands That Will Not Work in the IDE: Around the 11:30 in the video, you will be prompted to use the command `open index.html` in your Terminal. This will NOT work with the IDE. Instead use the command `atom index.html`*
 
 <iframe width="640" height="480" src="//www.youtube-nocookie.com/embed/s5S_2BdrMJE?rel=0" frameborder="0" allowfullscreen></iframe>
 
@@ -58,9 +60,13 @@ Previously we created a folder called "my-awesome-project", let's move into that
 
 ### Opening
 
-To open a file in its default program we use the "open" command followed by the "filename". so if we wanted to open our index file in the browser we would type: `open index.html`. The open command accepts as its argument the relative path to the file you wish to open. Based on the file extension being ".html" the computer knew to open this particular file in a web browser. If the file extension had been something else like ".txt" it would have opened in a text editor instead.
+To open a file in its default program we use the "open" command followed by the "filename". so if we wanted to open our index file in the browser we would type: `open index.html`. 
 
-This `index.html` file is currently empty (there is no code yet) so it displays a blank window in the browser. Go ahead and close this browser window and go back into the terminal in the Learn IDE.
+But note that with the Learn IDE, "open" will not work and instead you need to use "atom" followed by the "filename". In this case, type `atom index.html`
+
+The open (atom) command accepts as its argument the relative path to the file you wish to open. Based on the file extension being ".html" the computer knew to open this particular file in a web browser. If the file extension had been something else like ".txt" it would have opened in a text editor instead.
+
+This `index.html` file is currently empty (there is no code yet) so it displays a blank window in the IDE. Go ahead and close this window and go back into the terminal in the Learn IDE.
 
 ### Removing
 
@@ -90,7 +96,7 @@ The `mv` command allows us to move files, rename them, or both simultaneously. L
 - `mkdir` creates new directories.
 - `touch` creates new files.
 - `rm` removes files and `rm -rf` removes directories.
-- `open` allows you to open files
+- `open` allows you to open files (in the IDE, use `atom` instead)
 - `cp` copies files from one location to another.
 - `mv` renames and moves files from one location to another.
 
