@@ -2,7 +2,9 @@
 
 ## Overview
 
-Becoming proficient with the CLI (Command Line Interface) is essential to speed up your workflow and allowing you direct access to your computer's file system without needing to use the mouse or a GUI (Graphical User Interface) like Finder. The CLI will also give you super powers like accessing hidden files and folders, connecting to remote servers, and managing versions of your code using `git`. We will be exploring the most high-frequency BASH commands. For more information on the creation and history of Unix and BASH (Born Again Shell) see the [resources](#resources) at the bottom of this lesson.
+Now that you've covered how the web works and have started thinking about planning your website, it's important that you learn to use your computer the way that programmers do- like a workbench. Most likely up until now you've used the mouse or the GUI (Graphical User Interface) of your computer to access files, folders, and programs. 
+
+Let's now become proficient with the CLI (Command Line Interface) as it's essential to speeding up your workflow and allowing you direct access to your computer's file system. The CLI will also give you super powers like accessing hidden files and folders, connecting to remote servers, and managing versions of your code using `git`. We will be exploring the most high-frequency BASH commands. For more information on the creation and history of Unix and BASH (Born Again Shell) see the [resources](#resources) at the bottom of this lesson.
 
 ## Objectives
 By the end of this lesson, you'll be able to
